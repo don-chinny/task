@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 40vw;
+    padding: 10px;
+    transform: translate(60%, 0);
+    line-height: 35px;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    background-color: #97BC62FF;
+    padding: 40px 20px;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+form h4{
+    font-size: 20px;
+    color: white;
+}
+form input{
+    width: 100%;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 3.5px;
+    border: 1px solid black;
+}
+form input:focus{
+    border: 2px solid black;
+}
+form .input-group .input-box .dob{
+    width: 32.79%;
+}
+form input[type=radio]{
+    width: 20%;
+}
+input[type="radio" i]{
+    background-color: red;
+    color: red;
+}
+.fa{
+    color: #97BC62FF;
+    position: absolute;
+    left: 89%;
+    padding: 10px;
+}
+.fab{
+    font-size: 30px;
+    color: #97BC62FF;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+.input-box select{
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 3.5px;
+    border: 1px solid black;
+}
+.input-box select:focus{
+    border: 3px solid black;
+}
+button{
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 3.5px;
+    border: 1px solid grey;
+    background-color: #97BC62FF;
+}
+button:hover{
+    background-color: #448f45;
+}
+@media (min-width:280px) and (max-width:720px) {
+    body{
+        width: 100vw;
+        padding: 5px;
+        transform: translate(0, 0);
+    }
+    h2{
+        font-size: 25px;
+        letter-spacing: 0px;
+        padding: 35px 20px;
+    }
+    form h4{
+        font-size: 15px;
+    }
+    form .input-group .input-box .dob{
+        width: 32.6%;
+    }
+}
